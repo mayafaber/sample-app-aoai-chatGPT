@@ -10,7 +10,7 @@ import { isEmpty } from "lodash-es";
 import DOMPurify from 'dompurify';
 
 import styles from "./Chat.module.css";
-import Contoso from "../../assets/Contoso.svg";
+import UW from "../../assets/university-of-washington-uw-vector-logo.svg";
 import { XSSAllowTags } from "../../constants/xssAllowTags";
 
 import {
@@ -649,7 +649,7 @@ const Chat = () => {
                         {!messages || messages.length < 1 ? (
                             <Stack className={styles.chatEmptyState}>
                                 <img
-                                    src={ui?.chat_logo ? ui.chat_logo : Contoso}
+                                    src={ui?.chat_logo ? ui.chat_logo : UW}
                                     className={styles.chatIcon}
                                     aria-hidden="true"
                                 />
