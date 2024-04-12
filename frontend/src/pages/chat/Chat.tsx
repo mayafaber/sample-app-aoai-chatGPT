@@ -10,7 +10,7 @@ import { isEmpty } from "lodash-es";
 import DOMPurify from 'dompurify';
 
 import styles from "./Chat.module.css";
-import UW from "../../assets/university-of-washington-uw-vector-logo.svg";
+import Contoso from "../../assets/university-of-washington-uw-vector-logo.svg";
 import { XSSAllowTags } from "../../constants/xssAllowTags";
 
 import {
